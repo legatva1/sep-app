@@ -20,7 +20,7 @@ public class AppTest {
     public void smokeTest() throws Exception{
         Assert.assertEquals(app.plus(8, 6), 14);
         Assert.assertEquals(app.minus(8, 6), 2);
-        Assert.assertEquals(app.multiply(8, 6), 47);
+        Assert.assertEquals(app.multiply(8, 6), 46);
     }
 
 
