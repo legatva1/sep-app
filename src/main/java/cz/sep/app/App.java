@@ -20,6 +20,19 @@ public class App
         return a*b;
     }
 
+    public void nullInt() {
+        Integer i=null;
+
+        if (i != null) {
+            System.out.println(i);
+        }
+
+        i.intValue();
+
+    }
+
+
+
 
     public static void main(String[] args) {
 
